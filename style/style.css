@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/* Navber Section.......... */
 header {
     max-width: 1600px;
     height: 92px;
@@ -41,3 +41,70 @@ menu-items p {
     border-radius: 5px;
 
 }
+#banner{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 674px;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+}
+
+.banner-text{
+    padding: 115px 120px 180px;
+    text-align: center;
+    align-items: center;
+}
+.dot {
+  width: 16px;
+  height: 16px;
+  background:#30B868;
+  border-radius: 9px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.btns{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    color: #469165;
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+.banner-midel{
+    padding: 16px 295px;
+}
+.banner-midel h1 {
+    font-size: 72px;
+    align-items: center;
+    font-weight: bold;
+    /* padding: 16px 295px; */
+    color: #FFFFFF;
+}
+.text {
+    /* text-align: left; */
+    display: block;
+    color: #30B868;
+
+}
+.p-tag{
+    padding: 0 110px;
+/* padding: 0 350px; */
+font-size:16px ;
+color: white;
+height: 60px;
+line-height: 24px;
+}
+
+.btn-banner {
+    border: 2px solid white;
+    background:none;
+    padding: 10px 14px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size:16px;
+    font-weight: 600;
+    color: white;
+}
+
