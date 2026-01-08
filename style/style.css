@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 1600px;
+    height: 92px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+.navber {
+    padding: 16px 120px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+
+#menu-items {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+}
+
+menu-items p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 5px;
+
+}
