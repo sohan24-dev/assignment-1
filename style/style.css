@@ -170,3 +170,47 @@ border-radius: 8px;
     line-height: 20px;
     color: #627382;
 }
+#brain{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#brain .conternar{
+    padding: 0 120px;
+    display: flex;
+    padding-bottom: 120px;
+    /* max-width: 1360px; */
+    /* height: 600px; */
+    text-align: left;
+    /* align-items: center; */
+gap: 60px;
+}
+.brain-box img {
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+}
+#brain-top {
+    font-weight: 500;
+    color: #30B868;
+    padding-top: 120px;
+}
+.massage h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.brian-p{
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.bainer-icon{
+    display: flex;
+    padding-bottom: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    gap: 10px;
+}
