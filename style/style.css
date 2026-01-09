@@ -72,6 +72,10 @@ menu-items p {
     padding: 12px 16px;
     border-radius: 5px;
 }
+.banner-midel .btns {
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
 .banner-midel{
     padding: 16px 295px;
 }
@@ -107,4 +111,62 @@ line-height: 24px;
     font-weight: 600;
     color: white;
 }
+#note{
+    padding-top: 50px;
+    margin-bottom: 120px;
+    }
+#note .note-section{
+    max-width: 1360px;
+    /* height: 152px; */
+    text-align: center;
+    margin: 0 auto;
+}
+ .note-title h3{
+    font-size:48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom:10px;
+    /* padding: 40px 0 16px; */
 
+}
+.note-title p {
+    color: #627382;
+    font-size: 16px;
+}
+.note-title{
+    padding-bottom: 24px;
+}
+.card img{
+background-color: #F95555;
+max-width: 60px;
+height: 60px;
+border-radius: 50px;
+padding: 14px;
+margin-bottom: 16px;
+}
+.card-box {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+
+}
+
+.card-box .card{
+padding: 69px 24px;
+max-width: 300px;
+box-shadow: 0 6px 40px 0 #0000001c;
+border-radius: 8px;
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
