@@ -241,3 +241,39 @@ gap: 60px;
 .early-access button{
     margin-bottom: 16px;
 }
+#early-access{
+    margin-bottom: 120px;
+}
+
+#footer{
+    max-width: 1600px;
+    max-height: 348px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+.footer-box{
+    /* width: 1600px; */
+    padding: 0 120px;
+    height: 348px;
+    background-color: #001931;
+}
+.footer-section{
+    padding: 120px 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.so{
+    color: white;
+}
+
+.footer-left img{
+    width: 20px;
+    height: 20px;
+}
+.sohan{
+    color: white;
+      width: fit-content;
+  margin: 30px auto 30px auto;
+}
