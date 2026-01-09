@@ -39,6 +39,19 @@ menu-items p {
     color: #FFFFFF;
     padding: 12px 16px;
     border-radius: 5px;
+    cursor: pointer;
+  
+}
+.btn2{
+  display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+.banner-btns{
+    display: flex;
+    width: fit-content;
+    margin: auto;
 
 }
 #banner{
@@ -110,6 +123,9 @@ line-height: 24px;
     font-size:16px;
     font-weight: 600;
     color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 #note{
     padding-top: 50px;
@@ -268,12 +284,18 @@ gap: 60px;
     color: white;
 }
 
-.footer-left img{
+/* .footer-left img{
     width: 20px;
     height: 20px;
-}
-.sohan{
+} */
+.footer-end{
     color: white;
-      width: fit-content;
+    width: fit-content;
+      /* padding: 0 auto; */
   margin: 30px auto 30px auto;
+}
+
+.footer-left img {
+    margin-top: 9px;
+    margin-right: 9px;
 }
