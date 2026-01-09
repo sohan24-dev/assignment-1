@@ -170,15 +170,16 @@ border-radius: 8px;
     line-height: 20px;
     color: #627382;
 }
-#brain{
+.brain{
     max-width: 1600px;
     margin: 0 auto;
+    
 }
 
 #brain .conternar{
-    padding: 0 120px;
+    padding: 0 120px 120px;
     display: flex;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     /* max-width: 1360px; */
     /* height: 600px; */
     text-align: left;
@@ -213,4 +214,30 @@ gap: 60px;
     font-weight: 500;
     line-height: 20px;
     gap: 10px;
+}
+
+.early-access{
+    /* padding: 80px auto; */
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    max-height: 385px;
+    padding-bottom: 80px;
+}
+
+.early-access  h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #001931;
+    padding: 80px 40px 16px ;
+}
+
+.early-access p {
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.early-access button{
+    margin-bottom: 16px;
 }
